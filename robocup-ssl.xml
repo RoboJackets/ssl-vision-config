@@ -238,7 +238,7 @@
 			<Var name="DC1394" type="list">
 				<Var name="Conversion Settings" type="list">
 					<Var name="convert to mode" type="stringenum">
-						rgb
+						yuv422_uyvy
 						<Var name="0" type="string">
 							rgb
 						</Var>
@@ -384,7 +384,7 @@
 						false
 					</Var>
 					<Var name="ringbuffer size" type="int" minval="" maxval="">
-						10
+						4
 					</Var>
 				</Var>
 				<Var name="Camera Parameters" type="list">
@@ -393,7 +393,7 @@
 							true
 						</Var>
 						<Var name="auto" type="bool">
-							true
+							false
 						</Var>
 						<Var name="one-push" type="trigger">
 						</Var>
@@ -420,7 +420,7 @@
 						<Var name="one-push" type="trigger">
 						</Var>
 						<Var name="value" type="int" minval="0" maxval="2000">
-							125
+							800
 						</Var>
 						<Var name="use absolute" type="bool">
 							false
@@ -434,15 +434,15 @@
 					</Var>
 					<Var name="sharpness" type="list">
 						<Var name="enabled" type="bool">
-							true
+							false
 						</Var>
 						<Var name="auto" type="bool">
 							false
 						</Var>
 						<Var name="one-push" type="trigger">
 						</Var>
-						<Var name="value" type="int" minval="0" maxval="4">
-							2
+						<Var name="value" type="int" minval="" maxval="">
+							0
 						</Var>
 						<Var name="use absolute" type="bool">
 							false
@@ -464,10 +464,10 @@
 						<Var name="one-push" type="trigger">
 						</Var>
 						<Var name="value U" type="int" minval="0" maxval="95">
-							2
+							72
 						</Var>
 						<Var name="value V" type="int" minval="" maxval="">
-							2
+							46
 						</Var>
 						<Var name="use absolute" type="bool">
 							false
@@ -489,7 +489,7 @@
 						<Var name="one-push" type="trigger">
 						</Var>
 						<Var name="value" type="int" minval="0" maxval="359">
-							128
+							180
 						</Var>
 						<Var name="use absolute" type="bool">
 							false
@@ -511,7 +511,7 @@
 						<Var name="one-push" type="trigger">
 						</Var>
 						<Var name="value" type="int" minval="0" maxval="255">
-							255
+							127
 						</Var>
 						<Var name="use absolute" type="bool">
 							false
@@ -550,18 +550,18 @@
 							true
 						</Var>
 						<Var name="auto" type="bool">
-							false
+							true
 						</Var>
 						<Var name="one-push" type="trigger">
 						</Var>
 						<Var name="value" type="int" minval="1" maxval="4000">
-							1999
+							30
 						</Var>
 						<Var name="use absolute" type="bool">
 							false
 						</Var>
 						<Var name="absolute value" type="double" minval="0.000100" maxval="30.000000">
-							0.000500
+							0.033333
 						</Var>
 						<Var name="was_read" type="bool">
 							true
@@ -572,18 +572,18 @@
 							true
 						</Var>
 						<Var name="auto" type="bool">
-							false
+							true
 						</Var>
 						<Var name="one-push" type="trigger">
 						</Var>
 						<Var name="value" type="int" minval="180" maxval="1023">
-							180
+							837
 						</Var>
 						<Var name="use absolute" type="bool">
 							false
 						</Var>
-						<Var name="absolute value" type="double" minval="0.000000" maxval="23.868000">
-							6.300000
+						<Var name="absolute value" type="double" minval="" maxval="">
+							0.000000
 						</Var>
 						<Var name="was_read" type="bool">
 							true
@@ -635,7 +635,7 @@
 					</Var>
 					<Var name="temperature" type="list">
 						<Var name="enabled" type="bool">
-							true
+							false
 						</Var>
 						<Var name="auto" type="bool">
 							false
@@ -686,14 +686,14 @@
 						</Var>
 						<Var name="one-push" type="trigger">
 						</Var>
-						<Var name="value" type="int" minval="0" maxval="4095">
+						<Var name="value" type="int" minval="" maxval="">
 							0
 						</Var>
 						<Var name="use absolute" type="bool">
 							false
 						</Var>
-						<Var name="absolute value" type="double" minval="0.000001" maxval="2.097152">
-							0.000001
+						<Var name="absolute value" type="double" minval="" maxval="">
+							0.000000
 						</Var>
 						<Var name="was_read" type="bool">
 							false
@@ -754,7 +754,7 @@
 			<Var name="Read from files" type="list">
 				<Var name="Conversion Settings" type="list">
 					<Var name="convert to mode" type="stringenum">
-						rgb
+						yuv422_uyvy
 						<Var name="0" type="string">
 							rgb
 						</Var>
@@ -809,7 +809,7 @@
 		<Var name="Camera Calibrator" type="list">
 			<Var name="Camera Parameters" type="list">
 				<Var name="focal length" type="double" minval="" maxval="">
-					572.832918
+					500.000000
 				</Var>
 				<Var name="principal point x" type="double" minval="" maxval="">
 					390.000000
@@ -821,22 +821,22 @@
 					0.000000
 				</Var>
 				<Var name="q0" type="double" minval="" maxval="">
-					-0.667904
+					0.700000
 				</Var>
 				<Var name="q1" type="double" minval="" maxval="">
-					-0.417627
+					-0.700000
 				</Var>
 				<Var name="q2" type="double" minval="" maxval="">
-					0.384663
+					0.000000
 				</Var>
 				<Var name="q3" type="double" minval="" maxval="">
-					-0.481172
+					0.000000
 				</Var>
 				<Var name="tx" type="double" minval="" maxval="">
-					67.866288
+					0.000000
 				</Var>
 				<Var name="ty" type="double" minval="" maxval="">
-					-233.349925
+					1250.000000
 				</Var>
 				<Var name="tz" type="double" minval="0.000000" maxval="5000.000000">
 					3500.000000
@@ -942,28 +942,28 @@
 			</Var>
 			<Var name="Calibration Parameters" type="list">
 				<Var name="left corner in image x" type="double" minval="" maxval="">
-					46.000000
+					10.000000
 				</Var>
 				<Var name="left corner in image y" type="double" minval="" maxval="">
-					34.000000
+					10.000000
 				</Var>
 				<Var name="right corner in image x" type="double" minval="" maxval="">
-					574.000000
+					300.000000
 				</Var>
 				<Var name="right corner in image y" type="double" minval="" maxval="">
-					454.000000
+					10.000000
 				</Var>
 				<Var name="left centerline in image x" type="double" minval="" maxval="">
-					46.000000
+					10.000000
 				</Var>
 				<Var name="left centerline in image y" type="double" minval="" maxval="">
-					432.000000
+					200.000000
 				</Var>
 				<Var name="right centerline in image x" type="double" minval="" maxval="">
-					599.000000
+					300.000000
 				</Var>
 				<Var name="right centerline in image y" type="double" minval="" maxval="">
-					42.000000
+					200.000000
 				</Var>
 				<Var name="initial distortion" type="double" minval="" maxval="">
 					1.000000
@@ -1030,13 +1030,13 @@
 				false
 			</Var>
 			<Var name="thresholded" type="bool">
-				true
+				false
 			</Var>
 			<Var name="blobs" type="bool">
-				true
+				false
 			</Var>
 			<Var name="camera calibration" type="bool">
-				true
+				false
 			</Var>
 			<Var name="calibration result" type="bool">
 				false
@@ -1083,7 +1083,7 @@
 			<Var name="DC1394" type="list">
 				<Var name="Conversion Settings" type="list">
 					<Var name="convert to mode" type="stringenum">
-						rgb
+						yuv422_uyvy
 						<Var name="0" type="string">
 							rgb
 						</Var>
@@ -1145,13 +1145,13 @@
 						1
 					</Var>
 					<Var name="framerate" type="int" minval="" maxval="">
-						30
+						60
 					</Var>
 					<Var name="width" type="int" minval="" maxval="">
-						640
+						780
 					</Var>
 					<Var name="height" type="int" minval="" maxval="">
-						480
+						580
 					</Var>
 					<Var name="left" type="int" minval="" maxval="">
 						0
@@ -1223,10 +1223,10 @@
 						</Var>
 					</Var>
 					<Var name="use 1394B" type="bool">
-						false
+						true
 					</Var>
 					<Var name="use ISO800" type="bool">
-						false
+						true
 					</Var>
 					<Var name="ringbuffer size" type="int" minval="" maxval="">
 						4
@@ -1235,14 +1235,14 @@
 				<Var name="Camera Parameters" type="list">
 					<Var name="brightness" type="list">
 						<Var name="enabled" type="bool">
-							true
+							false
 						</Var>
 						<Var name="auto" type="bool">
 							false
 						</Var>
 						<Var name="one-push" type="trigger">
 						</Var>
-						<Var name="value" type="int" minval="0" maxval="1023">
+						<Var name="value" type="int" minval="" maxval="">
 							0
 						</Var>
 						<Var name="use absolute" type="bool">
@@ -1252,186 +1252,186 @@
 							0.000000
 						</Var>
 						<Var name="was_read" type="bool">
-							true
+							false
 						</Var>
 					</Var>
 					<Var name="exposure" type="list">
 						<Var name="enabled" type="bool">
-							true
+							false
 						</Var>
 						<Var name="auto" type="bool">
 							false
 						</Var>
 						<Var name="one-push" type="trigger">
 						</Var>
-						<Var name="value" type="int" minval="50" maxval="205">
-							205
-						</Var>
-						<Var name="use absolute" type="bool">
-							false
-						</Var>
-						<Var name="absolute value" type="double" minval="" maxval="">
-							0.000000
-						</Var>
-						<Var name="was_read" type="bool">
-							true
-						</Var>
-					</Var>
-					<Var name="sharpness" type="list">
-						<Var name="enabled" type="bool">
-							true
-						</Var>
-						<Var name="auto" type="bool">
-							false
-						</Var>
-						<Var name="one-push" type="trigger">
-						</Var>
-						<Var name="value" type="int" minval="0" maxval="4">
-							2
-						</Var>
-						<Var name="use absolute" type="bool">
-							false
-						</Var>
-						<Var name="absolute value" type="double" minval="" maxval="">
-							0.000000
-						</Var>
-						<Var name="was_read" type="bool">
-							true
-						</Var>
-					</Var>
-					<Var name="white balance" type="list">
-						<Var name="enabled" type="bool">
-							true
-						</Var>
-						<Var name="auto" type="bool">
-							true
-						</Var>
-						<Var name="one-push" type="trigger">
-						</Var>
-						<Var name="value U" type="int" minval="0" maxval="568">
-							474
-						</Var>
-						<Var name="value V" type="int" minval="" maxval="">
-							500
-						</Var>
-						<Var name="use absolute" type="bool">
-							false
-						</Var>
-						<Var name="absolute value" type="double" minval="" maxval="">
-							0.000000
-						</Var>
-						<Var name="was_read" type="bool">
-							true
-						</Var>
-					</Var>
-					<Var name="hue" type="list">
-						<Var name="enabled" type="bool">
-							true
-						</Var>
-						<Var name="auto" type="bool">
-							false
-						</Var>
-						<Var name="one-push" type="trigger">
-						</Var>
-						<Var name="value" type="int" minval="0" maxval="256">
-							180
-						</Var>
-						<Var name="use absolute" type="bool">
-							false
-						</Var>
-						<Var name="absolute value" type="double" minval="" maxval="">
-							0.000000
-						</Var>
-						<Var name="was_read" type="bool">
-							true
-						</Var>
-					</Var>
-					<Var name="saturation" type="list">
-						<Var name="enabled" type="bool">
-							true
-						</Var>
-						<Var name="auto" type="bool">
-							false
-						</Var>
-						<Var name="one-push" type="trigger">
-						</Var>
-						<Var name="value" type="int" minval="0" maxval="511">
-							127
-						</Var>
-						<Var name="use absolute" type="bool">
-							false
-						</Var>
-						<Var name="absolute value" type="double" minval="" maxval="">
-							0.000000
-						</Var>
-						<Var name="was_read" type="bool">
-							true
-						</Var>
-					</Var>
-					<Var name="gamma" type="list">
-						<Var name="enabled" type="bool">
-							true
-						</Var>
-						<Var name="auto" type="bool">
-							false
-						</Var>
-						<Var name="one-push" type="trigger">
-						</Var>
-						<Var name="value" type="int" minval="0" maxval="1">
-							1
-						</Var>
-						<Var name="use absolute" type="bool">
-							false
-						</Var>
-						<Var name="absolute value" type="double" minval="" maxval="">
-							0.000000
-						</Var>
-						<Var name="was_read" type="bool">
-							true
-						</Var>
-					</Var>
-					<Var name="shutter" type="list">
-						<Var name="enabled" type="bool">
-							true
-						</Var>
-						<Var name="auto" type="bool">
-							true
-						</Var>
-						<Var name="one-push" type="trigger">
-						</Var>
-						<Var name="value" type="int" minval="1" maxval="4095">
-							3274
-						</Var>
-						<Var name="use absolute" type="bool">
-							false
-						</Var>
-						<Var name="absolute value" type="double" minval="0.000100" maxval="30.000000">
-							0.033333
-						</Var>
-						<Var name="was_read" type="bool">
-							true
-						</Var>
-					</Var>
-					<Var name="gain" type="list">
-						<Var name="enabled" type="bool">
-							true
-						</Var>
-						<Var name="auto" type="bool">
-							true
-						</Var>
-						<Var name="one-push" type="trigger">
-						</Var>
-						<Var name="value" type="int" minval="0" maxval="680">
+						<Var name="value" type="int" minval="" maxval="">
 							0
 						</Var>
 						<Var name="use absolute" type="bool">
 							false
 						</Var>
-						<Var name="absolute value" type="double" minval="0.000000" maxval="23.868000">
+						<Var name="absolute value" type="double" minval="" maxval="">
 							0.000000
 						</Var>
 						<Var name="was_read" type="bool">
-							true
+							false
+						</Var>
+					</Var>
+					<Var name="sharpness" type="list">
+						<Var name="enabled" type="bool">
+							false
+						</Var>
+						<Var name="auto" type="bool">
+							false
+						</Var>
+						<Var name="one-push" type="trigger">
+						</Var>
+						<Var name="value" type="int" minval="" maxval="">
+							0
+						</Var>
+						<Var name="use absolute" type="bool">
+							false
+						</Var>
+						<Var name="absolute value" type="double" minval="" maxval="">
+							0.000000
+						</Var>
+						<Var name="was_read" type="bool">
+							false
+						</Var>
+					</Var>
+					<Var name="white balance" type="list">
+						<Var name="enabled" type="bool">
+							false
+						</Var>
+						<Var name="auto" type="bool">
+							false
+						</Var>
+						<Var name="one-push" type="trigger">
+						</Var>
+						<Var name="value U" type="int" minval="" maxval="">
+							0
+						</Var>
+						<Var name="value V" type="int" minval="" maxval="">
+							0
+						</Var>
+						<Var name="use absolute" type="bool">
+							false
+						</Var>
+						<Var name="absolute value" type="double" minval="" maxval="">
+							0.000000
+						</Var>
+						<Var name="was_read" type="bool">
+							false
+						</Var>
+					</Var>
+					<Var name="hue" type="list">
+						<Var name="enabled" type="bool">
+							false
+						</Var>
+						<Var name="auto" type="bool">
+							false
+						</Var>
+						<Var name="one-push" type="trigger">
+						</Var>
+						<Var name="value" type="int" minval="" maxval="">
+							0
+						</Var>
+						<Var name="use absolute" type="bool">
+							false
+						</Var>
+						<Var name="absolute value" type="double" minval="" maxval="">
+							0.000000
+						</Var>
+						<Var name="was_read" type="bool">
+							false
+						</Var>
+					</Var>
+					<Var name="saturation" type="list">
+						<Var name="enabled" type="bool">
+							false
+						</Var>
+						<Var name="auto" type="bool">
+							false
+						</Var>
+						<Var name="one-push" type="trigger">
+						</Var>
+						<Var name="value" type="int" minval="" maxval="">
+							0
+						</Var>
+						<Var name="use absolute" type="bool">
+							false
+						</Var>
+						<Var name="absolute value" type="double" minval="" maxval="">
+							0.000000
+						</Var>
+						<Var name="was_read" type="bool">
+							false
+						</Var>
+					</Var>
+					<Var name="gamma" type="list">
+						<Var name="enabled" type="bool">
+							false
+						</Var>
+						<Var name="auto" type="bool">
+							false
+						</Var>
+						<Var name="one-push" type="trigger">
+						</Var>
+						<Var name="value" type="int" minval="" maxval="">
+							0
+						</Var>
+						<Var name="use absolute" type="bool">
+							false
+						</Var>
+						<Var name="absolute value" type="double" minval="" maxval="">
+							0.000000
+						</Var>
+						<Var name="was_read" type="bool">
+							false
+						</Var>
+					</Var>
+					<Var name="shutter" type="list">
+						<Var name="enabled" type="bool">
+							false
+						</Var>
+						<Var name="auto" type="bool">
+							false
+						</Var>
+						<Var name="one-push" type="trigger">
+						</Var>
+						<Var name="value" type="int" minval="" maxval="">
+							0
+						</Var>
+						<Var name="use absolute" type="bool">
+							false
+						</Var>
+						<Var name="absolute value" type="double" minval="" maxval="">
+							0.000000
+						</Var>
+						<Var name="was_read" type="bool">
+							false
+						</Var>
+					</Var>
+					<Var name="gain" type="list">
+						<Var name="enabled" type="bool">
+							false
+						</Var>
+						<Var name="auto" type="bool">
+							false
+						</Var>
+						<Var name="one-push" type="trigger">
+						</Var>
+						<Var name="value" type="int" minval="" maxval="">
+							0
+						</Var>
+						<Var name="use absolute" type="bool">
+							false
+						</Var>
+						<Var name="absolute value" type="double" minval="" maxval="">
+							0.000000
+						</Var>
+						<Var name="was_read" type="bool">
+							false
 						</Var>
 					</Var>
 					<Var name="iris" type="list">
@@ -1480,7 +1480,7 @@
 					</Var>
 					<Var name="temperature" type="list">
 						<Var name="enabled" type="bool">
-							true
+							false
 						</Var>
 						<Var name="auto" type="bool">
 							false
@@ -1497,7 +1497,7 @@
 							0.000000
 						</Var>
 						<Var name="was_read" type="bool">
-							true
+							false
 						</Var>
 					</Var>
 					<Var name="trigger" type="list">
@@ -1519,7 +1519,7 @@
 							0.000000
 						</Var>
 						<Var name="was_read" type="bool">
-							true
+							false
 						</Var>
 					</Var>
 					<Var name="trigger delay" type="list">
@@ -1531,17 +1531,17 @@
 						</Var>
 						<Var name="one-push" type="trigger">
 						</Var>
-						<Var name="value" type="int" minval="0" maxval="4095">
+						<Var name="value" type="int" minval="" maxval="">
 							0
 						</Var>
 						<Var name="use absolute" type="bool">
 							false
 						</Var>
-						<Var name="absolute value" type="double" minval="0.000001" maxval="2.097152">
-							0.000001
+						<Var name="absolute value" type="double" minval="" maxval="">
+							0.000000
 						</Var>
 						<Var name="was_read" type="bool">
-							true
+							false
 						</Var>
 					</Var>
 					<Var name="white shading" type="list">
@@ -1654,7 +1654,7 @@
 		<Var name="Camera Calibrator" type="list">
 			<Var name="Camera Parameters" type="list">
 				<Var name="focal length" type="double" minval="" maxval="">
-					46.336535
+					500.000000
 				</Var>
 				<Var name="principal point x" type="double" minval="" maxval="">
 					390.000000
@@ -1666,22 +1666,22 @@
 					0.000000
 				</Var>
 				<Var name="q0" type="double" minval="" maxval="">
-					0.782508
+					0.700000
 				</Var>
 				<Var name="q1" type="double" minval="" maxval="">
-					0.019301
+					-0.700000
 				</Var>
 				<Var name="q2" type="double" minval="" maxval="">
-					-0.622160
+					0.000000
 				</Var>
 				<Var name="q3" type="double" minval="" maxval="">
-					0.014993
+					0.000000
 				</Var>
 				<Var name="tx" type="double" minval="" maxval="">
-					-3321.311505
+					0.000000
 				</Var>
 				<Var name="ty" type="double" minval="" maxval="">
-					-1089.511254
+					1250.000000
 				</Var>
 				<Var name="tz" type="double" minval="0.000000" maxval="5000.000000">
 					3500.000000
@@ -1787,28 +1787,28 @@
 			</Var>
 			<Var name="Calibration Parameters" type="list">
 				<Var name="left corner in image x" type="double" minval="" maxval="">
-					160.000000
+					10.000000
 				</Var>
 				<Var name="left corner in image y" type="double" minval="" maxval="">
-					61.000000
+					10.000000
 				</Var>
 				<Var name="right corner in image x" type="double" minval="" maxval="">
-					168.000000
+					300.000000
 				</Var>
 				<Var name="right corner in image y" type="double" minval="" maxval="">
-					428.000000
+					10.000000
 				</Var>
 				<Var name="left centerline in image x" type="double" minval="" maxval="">
-					444.000000
+					10.000000
 				</Var>
 				<Var name="left centerline in image y" type="double" minval="" maxval="">
-					44.000000
+					200.000000
 				</Var>
 				<Var name="right centerline in image x" type="double" minval="" maxval="">
-					453.000000
+					300.000000
 				</Var>
 				<Var name="right centerline in image y" type="double" minval="" maxval="">
-					438.000000
+					200.000000
 				</Var>
 				<Var name="initial distortion" type="double" minval="" maxval="">
 					1.000000
@@ -1875,13 +1875,13 @@
 				false
 			</Var>
 			<Var name="thresholded" type="bool">
-				true
+				false
 			</Var>
 			<Var name="blobs" type="bool">
-				true
+				false
 			</Var>
 			<Var name="camera calibration" type="bool">
-				true
+				false
 			</Var>
 			<Var name="calibration result" type="bool">
 				false
