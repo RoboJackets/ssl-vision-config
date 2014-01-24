@@ -1148,10 +1148,10 @@
 						60
 					</Var>
 					<Var name="width" type="int" minval="" maxval="">
-						780
+						640
 					</Var>
 					<Var name="height" type="int" minval="" maxval="">
-						580
+						480
 					</Var>
 					<Var name="left" type="int" minval="" maxval="">
 						0
@@ -1223,10 +1223,10 @@
 						</Var>
 					</Var>
 					<Var name="use 1394B" type="bool">
-						true
+						false
 					</Var>
 					<Var name="use ISO800" type="bool">
-						true
+						false
 					</Var>
 					<Var name="ringbuffer size" type="int" minval="" maxval="">
 						4
