@@ -464,10 +464,10 @@
 						<Var name="one-push" type="trigger">
 						</Var>
 						<Var name="value U" type="int" minval="0" maxval="95">
-							72
+							71
 						</Var>
 						<Var name="value V" type="int" minval="" maxval="">
-							46
+							52
 						</Var>
 						<Var name="use absolute" type="bool">
 							false
@@ -577,7 +577,7 @@
 						<Var name="one-push" type="trigger">
 						</Var>
 						<Var name="value" type="int" minval="180" maxval="1023">
-							838
+							919
 						</Var>
 						<Var name="use absolute" type="bool">
 							false
@@ -809,7 +809,7 @@
 		<Var name="Camera Calibrator" type="list">
 			<Var name="Camera Parameters" type="list">
 				<Var name="focal length" type="double" minval="" maxval="">
-					500.000000
+					453.327092
 				</Var>
 				<Var name="principal point x" type="double" minval="" maxval="">
 					390.000000
@@ -821,22 +821,22 @@
 					0.000000
 				</Var>
 				<Var name="q0" type="double" minval="" maxval="">
-					0.700000
+					-0.719628
 				</Var>
 				<Var name="q1" type="double" minval="" maxval="">
-					-0.700000
+					-0.693816
 				</Var>
 				<Var name="q2" type="double" minval="" maxval="">
-					0.000000
+					0.013370
 				</Var>
 				<Var name="q3" type="double" minval="" maxval="">
-					0.000000
+					-0.023999
 				</Var>
 				<Var name="tx" type="double" minval="" maxval="">
-					0.000000
+					-552.649167
 				</Var>
 				<Var name="ty" type="double" minval="" maxval="">
-					1250.000000
+					1009.858176
 				</Var>
 				<Var name="tz" type="double" minval="0.000000" maxval="5000.000000">
 					3500.000000
@@ -942,28 +942,28 @@
 			</Var>
 			<Var name="Calibration Parameters" type="list">
 				<Var name="left corner in image x" type="double" minval="" maxval="">
-					10.000000
+					56.000000
 				</Var>
 				<Var name="left corner in image y" type="double" minval="" maxval="">
-					10.000000
+					47.000000
 				</Var>
 				<Var name="right corner in image x" type="double" minval="" maxval="">
-					300.000000
+					557.000000
 				</Var>
 				<Var name="right corner in image y" type="double" minval="" maxval="">
-					10.000000
+					33.000000
 				</Var>
 				<Var name="left centerline in image x" type="double" minval="" maxval="">
-					10.000000
+					53.000000
 				</Var>
 				<Var name="left centerline in image y" type="double" minval="" maxval="">
-					200.000000
+					434.000000
 				</Var>
 				<Var name="right centerline in image x" type="double" minval="" maxval="">
-					300.000000
+					577.000000
 				</Var>
 				<Var name="right centerline in image y" type="double" minval="" maxval="">
-					200.000000
+					410.000000
 				</Var>
 				<Var name="initial distortion" type="double" minval="" maxval="">
 					1.000000
@@ -1309,10 +1309,10 @@
 						<Var name="one-push" type="trigger">
 						</Var>
 						<Var name="value U" type="int" minval="0" maxval="568">
-							284
+							485
 						</Var>
 						<Var name="value V" type="int" minval="" maxval="">
-							284
+							300
 						</Var>
 						<Var name="use absolute" type="bool">
 							false
