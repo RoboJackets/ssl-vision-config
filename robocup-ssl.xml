@@ -828,37 +828,37 @@
 		<Var name="Camera Calibrator" type="list">
 			<Var name="Camera Parameters" type="list">
 				<Var name="focal length" type="double" minval="" maxval="">
-					477.317361
+					556.819675
 				</Var>
 				<Var name="principal point x" type="double" minval="" maxval="">
-					222.869790
+					324.234251
 				</Var>
 				<Var name="principal point y" type="double" minval="" maxval="">
-					243.954995
+					212.066119
 				</Var>
 				<Var name="distortion" type="double" minval="0.000000" maxval="2.000000">
-					0.310000
+					0.510864
 				</Var>
 				<Var name="q0" type="double" minval="" maxval="">
-					-0.023850
+					-0.002225
 				</Var>
 				<Var name="q1" type="double" minval="" maxval="">
-					0.076332
+					0.028660
 				</Var>
 				<Var name="q2" type="double" minval="" maxval="">
-					-0.716229
+					-0.697592
 				</Var>
 				<Var name="q3" type="double" minval="" maxval="">
-					0.693268
+					0.715919
 				</Var>
 				<Var name="tx" type="double" minval="" maxval="">
-					780.265281
+					-119.460287
 				</Var>
 				<Var name="ty" type="double" minval="" maxval="">
-					1548.436185
+					1717.890316
 				</Var>
 				<Var name="tz" type="double" minval="0.000000" maxval="5000.000000">
-					3202.000000
+					3500.000000
 				</Var>
 			</Var>
 			<Var name="Field Half Configuration" type="list">
@@ -961,28 +961,28 @@
 			</Var>
 			<Var name="Calibration Parameters" type="list">
 				<Var name="left corner in image x" type="double" minval="" maxval="">
-					598.000000
+					603.000000
 				</Var>
 				<Var name="left corner in image y" type="double" minval="" maxval="">
-					30.000000
+					37.000000
 				</Var>
 				<Var name="right corner in image x" type="double" minval="" maxval="">
-					43.000000
+					47.000000
 				</Var>
 				<Var name="right corner in image y" type="double" minval="" maxval="">
-					54.000000
+					32.000000
 				</Var>
 				<Var name="left centerline in image x" type="double" minval="" maxval="">
-					592.000000
+					578.000000
 				</Var>
 				<Var name="left centerline in image y" type="double" minval="" maxval="">
-					443.000000
+					451.000000
 				</Var>
 				<Var name="right centerline in image x" type="double" minval="" maxval="">
-					71.000000
+					50.000000
 				</Var>
 				<Var name="right centerline in image y" type="double" minval="" maxval="">
-					445.000000
+					430.000000
 				</Var>
 				<Var name="initial distortion" type="double" minval="" maxval="">
 					1.000000
@@ -1170,7 +1170,7 @@
 				</Var>
 				<Var name="Capture Settings" type="list">
 					<Var name="cam idx" type="int" minval="" maxval="">
-						0
+						1
 					</Var>
 					<Var name="framerate" type="int" minval="" maxval="">
 						60
@@ -1293,7 +1293,7 @@
 						<Var name="one-push" type="trigger">
 						</Var>
 						<Var name="value" type="int" minval="0" maxval="2000">
-							800
+							205
 						</Var>
 						<Var name="use absolute" type="bool">
 							false
@@ -1307,15 +1307,15 @@
 					</Var>
 					<Var name="sharpness" type="list">
 						<Var name="enabled" type="bool">
-							false
+							true
 						</Var>
 						<Var name="auto" type="bool">
 							false
 						</Var>
 						<Var name="one-push" type="trigger">
 						</Var>
-						<Var name="value" type="int" minval="" maxval="">
-							0
+						<Var name="value" type="int" minval="0" maxval="4">
+							2
 						</Var>
 						<Var name="use absolute" type="bool">
 							false
@@ -1455,8 +1455,8 @@
 						<Var name="use absolute" type="bool">
 							false
 						</Var>
-						<Var name="absolute value" type="double" minval="" maxval="">
-							0.000000
+						<Var name="absolute value" type="double" minval="0.000000" maxval="23.868000">
+							17.219999
 						</Var>
 						<Var name="was_read" type="bool">
 							true
@@ -1508,7 +1508,7 @@
 					</Var>
 					<Var name="temperature" type="list">
 						<Var name="enabled" type="bool">
-							false
+							true
 						</Var>
 						<Var name="auto" type="bool">
 							false
@@ -1559,14 +1559,14 @@
 						</Var>
 						<Var name="one-push" type="trigger">
 						</Var>
-						<Var name="value" type="int" minval="" maxval="">
+						<Var name="value" type="int" minval="0" maxval="4095">
 							0
 						</Var>
 						<Var name="use absolute" type="bool">
 							false
 						</Var>
-						<Var name="absolute value" type="double" minval="" maxval="">
-							0.000000
+						<Var name="absolute value" type="double" minval="0.000001" maxval="2.097152">
+							0.000001
 						</Var>
 						<Var name="was_read" type="bool">
 							false
