@@ -1170,7 +1170,7 @@
 				</Var>
 				<Var name="Capture Settings" type="list">
 					<Var name="cam idx" type="int" minval="" maxval="">
-						1
+						0
 					</Var>
 					<Var name="framerate" type="int" minval="" maxval="">
 						60
