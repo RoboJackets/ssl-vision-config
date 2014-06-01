@@ -214,7 +214,7 @@
 			</Var>
 		</Var>
 	</Var>
-	<Var name="Camera 0" type="list">
+	<Var name="Camera0" type="list">
 		<Var name="Global" type="list">
 			<Var name="LUT 3D" type="external" filename="robocup-ssl-cam-0-lut-yuv.xml">
 			</Var>
@@ -1068,7 +1068,7 @@
 			</Var>
 		</Var>
 	</Var>
-	<Var name="Camera 1" type="list">
+	<Var name="Camera1" type="list">
 		<Var name="Global" type="list">
 			<Var name="LUT 3D" type="external" filename="robocup-ssl-cam-1-lut-yuv.xml">
 			</Var>
