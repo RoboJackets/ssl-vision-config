@@ -169,9 +169,9 @@
 		</Var>
 		<Var name="Blue Team" type="list">
 			<Var name="Team" type="stringenum">
-				RoboJackets
+				Standard
 				<Var name="0" type="string">
-					RoboJackets
+					Standard
 				</Var>
 			</Var>
 			<Var name="Max Robots" type="int" minval="" maxval="">
@@ -180,9 +180,9 @@
 		</Var>
 		<Var name="Yellow Team" type="list">
 			<Var name="Team" type="stringenum">
-				RoboJackets
+				Standard
 				<Var name="0" type="string">
-					RoboJackets
+					Standard
 				</Var>
 			</Var>
 			<Var name="Max Robots" type="int" minval="" maxval="">
@@ -1038,10 +1038,10 @@
 				false
 			</Var>
 			<Var name="thresholded" type="bool">
-				false
+				true
 			</Var>
 			<Var name="blobs" type="bool">
-				true
+				false
 			</Var>
 			<Var name="camera calibration" type="bool">
 				true

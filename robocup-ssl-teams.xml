@@ -1,8 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <VarXML>
-	<Var name="RoboJackets" type="list">
+	<Var name="Standard" type="list">
 		<Var name="Team Name" type="string">
-			RoboJackets
+			Standard
 		</Var>
 		<Var name="Unique Patterns" type="bool">
 			true
@@ -14,14 +14,14 @@
 			140.000000
 		</Var>
 		<Var name="Use Heights from Marker Image" type="bool">
-			false
+			true
 		</Var>
 		<Var name="Marker Image" type="list">
 			<Var name="Load Image File" type="bool">
 				true
 			</Var>
 			<Var name="Marker Image File" type="string">
-				patterns/teams/RoboJackets.png
+				/home/robojackets/ssl-vision/patterns/teams/standard2010.png
 			</Var>
 			<Var name="Marker Image Rows" type="int" minval="" maxval="">
 				3
