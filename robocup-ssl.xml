@@ -1041,7 +1041,7 @@
 				true
 			</Var>
 			<Var name="blobs" type="bool">
-				false
+				true
 			</Var>
 			<Var name="camera calibration" type="bool">
 				true
@@ -1883,13 +1883,13 @@
 				false
 			</Var>
 			<Var name="thresholded" type="bool">
-				false
+				true
 			</Var>
 			<Var name="blobs" type="bool">
 				true
 			</Var>
 			<Var name="camera calibration" type="bool">
-				true
+				false
 			</Var>
 			<Var name="calibration result" type="bool">
 				false
