@@ -623,7 +623,7 @@
 						0
 					</Var>
 					<Var name="framerate" type="int" minval="" maxval="">
-						30
+						60
 					</Var>
 					<Var name="width" type="int" minval="" maxval="">
 						640
@@ -1742,7 +1742,7 @@
 						1
 					</Var>
 					<Var name="framerate" type="int" minval="" maxval="">
-						30
+						60
 					</Var>
 					<Var name="width" type="int" minval="" maxval="">
 						640
@@ -2445,7 +2445,7 @@
 		<Var name="Camera Calibrator" type="list">
 			<Var name="Camera Parameters" type="list">
 				<Var name="focal length" type="double" minval="" maxval="">
-					559.135314
+					557.135314
 				</Var>
 				<Var name="principal point x" type="double" minval="" maxval="">
 					277.650797
@@ -2727,7 +2727,7 @@
 				7
 			</Var>
 			<Var name="enable" type="bool">
-				true
+				false
 			</Var>
 		</Var>
 		<Var name="Robot Detection" type="list">
