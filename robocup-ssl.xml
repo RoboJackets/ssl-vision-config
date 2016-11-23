@@ -2727,7 +2727,7 @@
 				7
 			</Var>
 			<Var name="enable" type="bool">
-				false
+				true
 			</Var>
 		</Var>
 		<Var name="Robot Detection" type="list">
