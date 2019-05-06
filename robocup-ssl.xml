@@ -2011,7 +2011,7 @@
 				false
 			</Var>
 			<Var name="calibration result" type="bool">
-				false
+				true
 			</Var>
 			<Var name="detected edges" type="bool">
 				false
@@ -3286,7 +3286,7 @@
 				false
 			</Var>
 			<Var name="calibration result" type="bool">
-				false
+				true
 			</Var>
 			<Var name="detected edges" type="bool">
 				false
