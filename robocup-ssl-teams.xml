@@ -5,7 +5,7 @@
 			Default
 		</Var>
 		<Var name="Robot Height (mm)" type="double" minval="" maxval="">
-			150.000000
+			165.000000
 		</Var>
 	</Var>
 	<Var name="CMus" type="list">
